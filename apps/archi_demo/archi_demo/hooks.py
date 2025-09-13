@@ -251,3 +251,15 @@ fixtures = [
   ]]]},
   {"doctype": "Client Script", "filters": [["dt", "in", ["Form N2"]]]}
 ]
+# include KPI cards too
+fixtures += [
+  {"doctype": "Number Card", "filters": [["name", "in", [
+    "PRs Pending Approval",
+    "N2 in Review",
+    "Active Projects"
+  ]]]}
+]
+# export the Archi Dashboard workspace explicitly
+fixtures += [
+  {"doctype": "Workspace", "filters": [["title","in",["Archi Dashboard"]]]}
+]

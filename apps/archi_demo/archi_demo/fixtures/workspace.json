@@ -1,1 +1,119 @@
-[]
+[
+ {
+  "charts": [],
+  "content": "[]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": null,
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Archi Dashboard",
+  "links": [],
+  "modified": "2025-09-13 20:17:02.982195",
+  "module": "",
+  "name": "Archi Dashboard",
+  "number_cards": [
+   {
+    "label": "Active Projects",
+    "number_card_name": "Active Projects",
+    "parent": "Archi Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "N2 in Review",
+    "number_card_name": "N2 in Review",
+    "parent": "Archi Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "PRs Pending Approval",
+    "number_card_name": "PRs Pending Approval",
+    "parent": "Archi Dashboard",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   }
+  ],
+  "parent_page": null,
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [],
+  "sequence_id": 100.0,
+  "shortcuts": [
+   {
+    "color": null,
+    "doc_view": "",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Archi Projects",
+    "link_to": "Archi Project",
+    "parent": "Archi Dashboard",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": null,
+    "doc_view": "",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Buildings",
+    "link_to": "Building",
+    "parent": "Archi Dashboard",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": null,
+    "doc_view": "",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Purchase Requests",
+    "link_to": "Purchase Request",
+    "parent": "Archi Dashboard",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": null,
+    "doc_view": "",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Form N2",
+    "link_to": "Form N2",
+    "parent": "Archi Dashboard",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "DocType",
+    "url": null
+   }
+  ],
+  "title": "Archi Dashboard"
+ }
+]
