@@ -242,12 +242,3 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
-# --- Archi Demo fixtures ---
-fixtures = [
-  {"doctype": "DocType", "filters": [["module", "=", "Archi Demo"]]},
-  {"doctype": "Workspace", "filters": [["module", "=", "Archi Demo"]]},
-  {"doctype": "Workflow", "filters": [["document_type", "in", [
-      "Form N2", "Purchase Request", "Journal Entry", "HR Request"
-  ]]]},
-  {"doctype": "Client Script", "filters": [["dt", "in", ["Form N2"]]]}
-]
