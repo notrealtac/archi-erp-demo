@@ -1,0 +1,12 @@
+{
+  "name": "Frappe/ERPNext (Codespaces)",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "version": "latest"
+    }
+  },
+  "runArgs": ["--privileged"],
+  "remoteUser": "vscode",
+  "postCreateCommand": "bash .devcontainer/postCreate.sh"
+}
